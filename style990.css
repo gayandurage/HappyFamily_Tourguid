@@ -1,0 +1,479 @@
+/*----------------------------------------------CSS part of Tour Guid-----------------------------------------------*/
+		
+	
+/*---------------------------------------Card preparation----------------------------------------------------------*/
+		.card0{
+		       	width: 200px;
+		       	height: 330px;
+				box-shadow: 0 5px 5px 5px #F7EFE5;
+				border-radius: 10px;
+				margin: 20px;
+				position: relative;
+				/*float: none;*/
+				background-size: cover;
+				padding: 10px;
+				display: inline-block;
+				top: 10px;
+
+
+       		}
+
+		.card1{
+				width: 100%;
+				height: 240px;
+				border-radius: 10px;
+				position: absolute;
+				float: relative;
+				background-size: cover;			
+			}
+		
+		.content{
+				padding: 10px;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: justify;
+			}
+		
+		.content p{
+				position: relative;
+				color: red;
+				test-transform:Uppercase;
+				font-size: 20px;
+				letter-spacing: 1px;
+				text-shadow: 1 2px 2px #222222;
+				box-sizing: border-box;
+				word-break: break-word;
+
+			}
+/*------------------------------------Background animation of cards------------------------------------------------*/
+
+
+/*-----------------------------------------------card0-------------------------------------------------------------*/
+
+		div.colrChange{
+				position: relative;
+				-webkit-animation-name: coloring;
+				-webkit-animation-duration: 18s;
+				
+				-webkit-animation-iteration-count:infinite;
+				-webkit-animation-timing-function: cubic-bezier(0.42,0,0.58,1.0);
+				 backface-visibility: hidden;
+				 animation-play-state: running;
+				
+
+			}
+
+		@keyframes coloring{
+				
+				0%{background-image: url("https://images.unsplash.com/photo-1601573065182-776a3f32ccc9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=269&q=80");}
+				20%{background-image: url("https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/9a/a4/20.jpg");}
+				40%{background-image: url("https://images.unsplash.com/photo-1566766189268-ecac9118f2b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmluZSUyMGFyY2glMjBicmlkZ2V8ZW58MHx8MHx8&w=1000&q=80");}
+				60%{background-image: url("https://media.istockphoto.com/id/579253918/photo/female-worker-in-tea-plantations-of-sri-lanka.jpg?s=612x612&w=0&k=20&c=TH20917YspP0nXSvdP78hl7wA4UD9h6cV6SrxCcyBcE=");}
+				80%{background-image: url("https://media.istockphoto.com/id/1125882625/photo/beautiful-waterfall-nuwara-eliya-sri-lanka.jpg?s=1024x1024&w=is&k=20&c=WEBsKLp9i9qd7hps9lmFtQXyg1kqvAw8uS9vzpfgt-M=");}
+				100%{background-image: url("https://images.unsplash.com/photo-1524726240783-939bfdd633e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");}
+			}
+
+
+/*-----------------------------------------------card1---------------------------------------------------------------*/
+
+		div.colrChange1{
+				position: relative;
+				-webkit-animation-name: coloring1;
+				-webkit-animation-duration: 18s;
+				
+				-webkit-animation-iteration-count:infinite;
+				animation-timing-function: cubic-bezier(1,1,1,1);
+				-webkit-animation-direction:normal;
+			}
+
+		@-webkit-keyframes coloring1{
+				
+				0%{background-image: url("https://images.unsplash.com/photo-1442570468985-f63ed5de9086?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhaW4lMjB0cmF2ZWx8ZW58MHx8MHx8&w=1000&q=80");}
+				20%{background-image: url("https://www.seat61.com/images/sicily-comfort-couchette-large.jpg");}
+				40%{background-image: url("https://dereklow.co/content/images/2018/10/4-2.jpg");}
+				60%{background-image: url("https://images.squarespace-cdn.com/content/v1/5c94ab21a09a7e443410d831/1563946192939-BQX9VCQ33R0C01ZHMMKJ/sri-lanka-train-station.jpg?format=1000w");}
+				80%{background-image: url("https://www.thecoastalcampaign.com/wp-content/uploads/2019/06/Scenic-mountain-train-1080x675.jpeg");}
+				100%{background-image: url("http://blog.cinnamonhotels.com/wp-content/uploads/2014/06/sri-lanka205.jpg");}
+			}
+
+
+/*-----------------------------------------------card2---------------------------------------------------------------*/
+
+			div.colrChange2{
+				position: relative;
+				-webkit-animation-name: coloring2;
+				-webkit-animation-duration: 18s;
+				
+				-webkit-animation-iteration-count:infinite;
+				animation-timing-function: cubic-bezier(1,1,1,1);
+				-webkit-animation-direction:normal;
+			}
+
+		@-webkit-keyframes coloring2{
+				
+				0%{background-image: url("https://thumbs.dreamstime.com/z/sri-lanka-travel-landmarks-polonnaruwa-sri-lanka-travel-landmarks-ancient-city-polonnaruwa-unesco-world-heritage-site-188087013.jpg");}
+				20%{background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/8f/16/3f/vatadage.jpg?w=300&h=300&s=1");}
+				40%{background-image: url("https://assets.traveltriangle.com/blog/wp-content/uploads/2018/10/kings-Audience-Hall.jpg");}
+				60%{background-image: url("https://previews.123rf.com/images/dimol/dimol1601/dimol160100014/51571256-famous-sri-lankan-tourist-landmark-lion-s-paws-pathway-on-sigiriya-rock-sri-lanka.jpg");}
+				80%{background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/d4/25/ef/caption.jpg?w=300&h=300&s=1");}
+				100%{background-image: url("https://img.freepik.com/premium-photo/aluvihara-rock-temple-matale-alu-viharaya-is-sacred-buddhist-temple-located-aluvihare-matale-district-sri-lanka_78361-9570.jpg");}
+			}
+
+
+/*-----------------------------------------------card3---------------------------------------------------------------*/
+
+			div.colrChange3{
+				position: relative;
+				-webkit-animation-name: coloring3;
+				-webkit-animation-duration: 18s;
+				
+				-webkit-animation-iteration-count:infinite;
+				animation-timing-function: cubic-bezier(1,1,1,1);
+				-webkit-animation-direction:normal;
+			}
+
+		@-webkit-keyframes coloring3{
+				
+				0%{background-image: url("https://www.watchinglanka.com/wp-content/uploads/2018/10/Minneriya-in-Sri-Lanka.jpg");}
+				20%{background-image: url("https://lh3.googleusercontent.com/pw/ACtC-3dVyvRHlV0aMHvtI1FTQQmdH1WYyPbjOQaRwpjmgvvqa5tBgGOQTI1Hcl3Pb2idvBrlkAyJEi0IOD2mBHJLySkhx5Ho7uKcBe2YqIKRx94bszXL9QJcRYk4w6KfUY0WpncFXeRWfACK4m7KJpVsK6Xs=w1080-h1254-no?authuser=2");}
+				40%{background-image: url("https://st4.depositphotos.com/4205271/23201/i/1600/depositphotos_232019544-stock-photo-samadhi-statue-statue-situated-mahamevnawa.jpg");}
+				60%{background-image: url("https://www.attractionsinsrilanka.com/wp-content/uploads/2020/03/Pimburaththewa-Lake.jpg");}
+				80%{background-image: url("https://www.thingstodosrilanka.com/wp-content/uploads/2020/08/ruwanweliseya-anuradhapura.jpg");}
+				100%{background-image: url("https://c8.alamy.com/zooms/9/ada1484ccc2d427a889343bfe5df7b7c/2be17at.jpg");}
+			}
+
+
+/*-----------------------------------------------card4---------------------------------------------------------------*/
+
+			div.colrChange4{
+				position: relative;
+				-webkit-animation-name: coloring4;
+				-webkit-animation-duration: 18s;
+				
+				-webkit-animation-iteration-count:infinite;
+				animation-timing-function: cubic-bezier(1,1,1,1);
+				-webkit-animation-direction:normal;
+			}
+
+		@-webkit-keyframes coloring4{
+				
+				0%{background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/07/36/82/81.jpg");}
+				20%{background-image: url("https://www.srilankatravelandtourism.com/places-sri-lanka/kitulgala/kitulgala-images/kitulgala-10-sri-lanka.jpg");}
+				40%{background-image: url("https://www.dailynews.lk/sites/default/files/news/2023/01/24/z_p00-Kithulgala-water-rafting.jpg");}
+				60%{background-image: url("https://media.tacdn.com/media/attractions-splice-spp-360x240/0b/0c/4f/9b.jpg");}
+				80%{background-image: url("https://www.ceylonadventure.com/themes/default/assets/frontend/images/slider/1.jpg");}
+				100%{background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvRDG5sa9hX6mqaLI4KL1JMuo0SswsJPrt4s0ZoWieThyNOHbcyEGvFAxb6P_Tuxo22Oc&usqp=CAU");}
+			}
+
+
+/*-----------------------------------------------card5---------------------------------------------------------------*/
+
+			div.colrChange5{
+				position: relative;
+				-webkit-animation-name: coloring5;
+				-webkit-animation-duration: 18s;
+				
+				-webkit-animation-iteration-count:infinite;
+				animation-timing-function: cubic-bezier(1,1,1,1);
+				-webkit-animation-direction:normal;
+			}
+
+		@-webkit-keyframes coloring5{
+				
+				0%{background-image: url("https://media.tacdn.com/media/attractions-splice-spp-360x240/0e/44/91/f3.jpg");}
+				20%{background-image: url("https://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2018/10/og-for-galle.jpg");}
+				40%{background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/19/70/d9.jpg");}
+				60%{background-image: url("https://previews.123rf.com/images/dinozzaver/dinozzaver1801/dinozzaver180100556/93979438-view-to-galle-fort-on-sunny-day-sri-lanka.jpg");}
+				80%{background-image: url("https://www.unawatunadiving.com/unawatuna/wp-content/uploads/2019/05/Snorkelers_2.jpg");}
+				100%{background-image: url("https://assets.traveltriangle.com/blog/wp-content/uploads/2018/11/Snorkel-your-way-around-the-coral-reefs.jpg");}
+			}
+
+/*-----------------------------------------------card6---------------------------------------------------------------*/
+
+			div.colrChange6{
+				position: relative;
+				-webkit-animation-name: coloring6;
+				-webkit-animation-duration: 18s;
+				
+				-webkit-animation-iteration-count:infinite;
+				animation-timing-function: cubic-bezier(1,1,1,1);
+				-webkit-animation-direction:normal;
+			}
+
+		@keyframes coloring6{				
+				0%{background-image: url("https://d2vlfoojfnunjn.cloudfront.net/tours/north_sri_lanka_road/north_sri_lanka_road-max.jpg");}
+				20%{background-image: url("https://images.thrillophilia.com/image/upload/s--YwjHnnrI--/c_fill,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/053/273/original/1596624895_shutterstock_1750468745.jpg.jpg?1596624894");}
+				40%{background-image: url("https://cdn.kimkim.com/files/a/content_articles/featured_photos/f055f2981a4fe10ae884ea93aada96def6d032f3/big-62ee7fae35f46af5fbac73b96a025113.jpg");}
+				60%{background-image: url("https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2020/02/Cycle-tour-munnar.jpg?resize=800%2C472&ssl=1");}
+				80%{background-image: url("https://www.srilankadaytours.com/images/Koggala/Paddy-Trail-for-Cyclist-in-Galle.jpg");}
+				100%{background-image: url("https://www.redspokes.co.uk/_images/main-images/cycling%20albania-002_1.jpg");}
+			}
+
+
+
+		.card0:hover{
+			transform: scale(1.2);
+		}
+
+		.outer {
+			    width: 98%;
+			    height: 440px;
+			    white-space: nowrap;
+			    position: relative;
+			    overflow-x: scroll;
+			    overflow-y: hidden;
+			    padding: 5px;
+			    margin: 10px;
+			    top=5px;
+			    flex-wrap: nowrap;
+			    align-content: center;
+
+
+
+
+		}
+		
+		/* width */
+		::-webkit-scrollbar{
+		  width: 10px;
+		  height: 10px;
+		}
+
+
+		/* Track */
+		::-webkit-scrollbar-track{
+		  background: none; 
+		}
+		 
+		/* Handle */
+		::-webkit-scrollbar-thumb{
+		  background: #03001C; 
+		}
+
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover{
+		  background: #301E67; 
+		}
+	
+
+/*---------------------------------------End of the Card preparation----------------------------------------------------*/
+		
+/*---------------------------------------Description propery preparation------------------------------------------------*/
+	
+		.horizontalLine{
+			height:2px;
+			border-width:0;
+			color:gray;
+			background-color:gray;
+		}
+		.img2{
+			width: 250px;
+			height: 250px;
+			border-radius: 10px;
+		}
+
+		.fontcall{
+			font-family: 'Merienda', cursive;
+			font-family: 'Playfair Display', serif;
+			font-family: 'Roboto', sans-serif;
+			font-family: 'Unbounded', cursive;
+			letter-spacing: 2px;
+			line-spacing: 3px;
+		}
+		.headCall{
+			font-weight: bolder;
+			font-size: 35px;
+		}
+		.card2{
+			width: 96%;	
+			box-shadow: 0 5px 5px 5px #F7EFE5;
+			border-radius: 10px;
+			margin: 2%;
+			position: relative;
+			float: left;
+			background-color: #F7EFE5;
+			padding: 10px;
+		}
+
+		.bookingtag{
+			clear: both;
+     		color:green;
+     		text-align:right;
+     		text-decoration: underline;
+     		 
+		}
+		.topcalltag{
+			clear: both;
+     		color:blue;
+     		text-align:right;
+     		text-decoration: underline;
+     		 
+		}
+/*---------------------------------------End of the Description propery preparation--------------------------------------*/
+
+/*---------------------------------------Start of the Online booking propery preparation--------------------------------------*/
+		.shapeoftabs{
+			margin: 15px;
+			
+		}
+		.shapeoftabs label{
+			margin:0 0 15px 0;
+		}
+		
+		.shapeoftabs input{
+			padding: 10px;
+			border:1px solid #dfdfdf;
+			border-radius: 3px;
+			margin-top: 5px;
+			width: 90%;
+		}
+
+/*---------------------------------------End of the Online booking propery preparation--------------------------------------*/
+
+/*---------------------------------------Start of the head propery preparation--------------------------------------*/
+
+
+		.headerstyling {
+      background: #80ED99;
+      width: 96%;
+      height: 40px;
+      margin: 2%;
+      
+      border-radius: 10px;
+      /*animation: moveToLeft 40s infinite;
+      animation-iteration-count:cubic-bezier(1,1,1,1);*/
+			display: flex;
+			flex-wrap: wrap;
+			align-content: center;
+			justify-content: center;
+    }
+    .headerstyling p{
+    	text-align: center;
+    	font-size: 25px;
+    }
+
+
+    /*@keyframes moveToLeft {
+      0% {
+        transform: translateX(0px);
+        background: linear-gradient(
+          to right,
+          #80ED99 14%,
+          #57CC99 28%,
+          #80ED99 42%,
+          #80ED99 57%,
+          #80ED99 71%,
+          #80ED99 100%
+        );
+      }
+       50% {
+        transform: translateX(217%);
+        background: linear-gradient(to left,
+          #80ED99 14%,
+          #57CC99 28%,
+          #80ED99 42%,
+          #80ED99 57%,
+          #80ED99 71%,
+          #80ED99 100%
+        );
+      }
+      
+    }*/
+
+  .gridMaking{
+			box-sizing: border-box;
+			display: grid;
+			grid-template-columns: 10% 35% 55%;
+			grid-template-rows: repeat(5, auto);
+			grid-column-gap: 0.2%;
+			grid-row-gap: 0.2%;
+			position: relative;
+			top: 0px;
+			font-family: 'Merienda', cursive;
+			font-family: 'Playfair Display', serif;
+			font-family: 'Roboto', sans-serif;
+			font-family: 'Unbounded', cursive;
+			letter-spacing: 2px;
+			line-spacing: 3px;
+			flex-wrap: wrap;
+
+		}
+		.g1{
+			box-sizing: border-box;
+			padding: 1%;
+			grid-column-start: 1;
+			grid-column-end: 2;
+			grid-row-start: 1;
+			grid-row-end: 6;
+			display: flex;
+			flex-wrap: wrap;
+			align-content: center;
+
+		}
+		.g2{
+			box-sizing: border-box;
+			padding: 1%;
+			grid-column-start: 2;
+			grid-column-end: 3;
+			grid-row-start: 1;
+			grid-row-end: 3;
+			display: flex;
+			flex-wrap: wrap;
+			align-content: center;
+			justify-content: center;
+			
+		}
+		.g3{
+			box-sizing: border-box;
+			padding: 1%;
+			grid-column-start: 2;
+			grid-column-end: 3;
+			grid-row-start: 3;
+			grid-row-end: 4;
+			display: flex;
+			flex-wrap: wrap;
+			align-content: center;
+			justify-content: center;
+		}
+		
+		.g4{
+			box-sizing: border-box;
+			padding: 1%;
+			grid-column-start: 2;
+			grid-column-end: 3;
+			grid-row-start: 4;
+			grid-row-end: 5;
+			display: flex;
+			flex-wrap: wrap;
+			align-content: center;
+			justify-content: center;
+		}
+		.g5{
+			box-sizing: border-box;
+			padding: 1%;
+			grid-column-start: 2;
+			grid-column-end: 3;
+			grid-row-start: 5;
+			grid-row-end: 6;
+			
+		}
+		.g6{
+			box-sizing: border-box;
+			padding: 1%;
+			grid-column-start: 3;
+			grid-column-end: 4;
+			grid-row-start: 1;
+			grid-row-end: 2;
+			display: flex;
+			
+		}
+		.g7{
+			box-sizing: border-box;
+			padding: 1%;
+			grid-column-start: 3;
+			grid-column-end: 4;
+			grid-row-start: 2;
+			grid-row-end: 6;
+
+		}
+	
